@@ -4,7 +4,7 @@ import java.util.Date;
 
 import org.joda.time.DateTime;
 import org.joda.time.Years;
-
+//Eoghan Hennelly
 public class Student {
 	private String Name;
 	private int Age;
@@ -43,6 +43,8 @@ public class Student {
 	}
 	
 
+	
+	
 	public String setName(String name) {
 		this.Name = name;
 		return this.Name;
