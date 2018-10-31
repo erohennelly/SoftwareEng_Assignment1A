@@ -2,6 +2,8 @@ package SoftEng.Assignment1.mavenproject1;
 
 import SoftEng.Assignment1.mavenproject1.Student;
 
+//@Eoghan Hennelly
+
 public class Module {
 	private String Name;
 	private String ID;

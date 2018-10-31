@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import SoftEng.Assignment1.mavenproject1.Student;
 
+//@Eoghan Hennelly
 
 public class StudentTest {
 
