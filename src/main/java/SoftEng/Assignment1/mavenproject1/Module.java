@@ -9,7 +9,6 @@ public class Module {
 	private String ID;
 	private Student[] Students;
 	
-	
 	public Module(String name, String id, Student[] students) {
 		this.Name = name;
 		this.ID = id;
@@ -28,7 +27,6 @@ public class Module {
 		return this.Students;
 	}
 	
-	
 	public String setName(String name) {
 		this.Name = name;
 		return this.Name;
@@ -43,5 +41,4 @@ public class Module {
 		this.Students = students;
 		return this.Students;
 	}
-
 }

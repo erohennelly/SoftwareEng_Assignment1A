@@ -1,7 +1,7 @@
 package SoftEng.Assignment1.mavenproject1;
 
 import org.joda.time.DateTime;
-//@Eoghan Hennelly
+//@EoghanHennelly
 
 public class CourseProgramme {
 	private String Name;
