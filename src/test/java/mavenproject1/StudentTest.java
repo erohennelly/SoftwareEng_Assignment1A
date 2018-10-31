@@ -18,13 +18,13 @@ public class StudentTest {
 		SimpleDateFormat dateformat = new SimpleDateFormat("dd/MM/yyyy");
 
 		String name = "Johnny Buzz";
-		int age = 22;
+		int age = 21;
 		Date dob = dateformat.parse("26/06/1997");
 		int id = 5656;
 		
 		Student testStudent = new Student(name, dob, id);
 		
-		String expected = name + age + id;
+		String expected = name + age;
 		String actual = testStudent.getUsername();
 		
 		System.out.println("actual:\n\t" + actual + "\nexpected:\n\t" + expected);
